@@ -1,1 +1,8 @@
-package ex_5_defer
+package main
+
+import "fmt"
+
+func main() {
+	defer fmt.Println("end")
+	fmt.Println("start")
+}
