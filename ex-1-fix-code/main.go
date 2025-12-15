@@ -1,8 +1,10 @@
 package main
 
+import "fmt"
+
 func main() {
 	x := 10
 	if x > 5 {
-		println("OK")
+		fmt.Println("OK")
 	}
 }
